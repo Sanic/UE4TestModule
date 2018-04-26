@@ -5,7 +5,7 @@ A minimal example for additional modules in UE4 game projects
 # How to set this up
 - Create a fresh C++ UE4 project. 
 - Close the Editor.
-- Clone this repo to the Source/ Folder of your project
+- Clone this repo to the Source/ Folder of your project. The final path should look something like: YourProject/Source/UE4TestModule/
 - Add the following section to your PROJECTNAME.uproject File in the modules section (please note the comma):
 ```
 ,
