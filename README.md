@@ -4,7 +4,7 @@ A minimal example for additional modules in UE4 game projects
 
 # How to set this up
 - Create a fresh C++ UE4 project. 
-- Close the Editor.
+- Close the Editor and VS (if it popped up)
 - Clone this repo to the Source/ Folder of your project. The final path should look something like: YourProject/Source/UE4TestModule/
 - Add the following section to your PROJECTNAME.uproject File in the modules section (please note the comma):
 ```
@@ -17,6 +17,7 @@ A minimal example for additional modules in UE4 game projects
 ``` 
 - In PROJECTNAME.Build.cs, add "UE4TestModule" to the PublicDependencyModuleNames
 - Start the Editor and let the code compile
+- Open VS from the UE4Editor
 - Optional: Search for "My Module Actor" and add it to the world.
 - Change something in UE4TestModule\Private\MyModuleActor.cpp or the corresponding .h file
 - Compile in VS
